@@ -1,6 +1,6 @@
 var path = require('path');
 module.exports = {
-  entry: "./HJmore.js",//入口文件
+  entry: "./src/HJmore.js",//入口文件
   output: {//打包输出的文件
     path: path.resolve(__dirname, 'dist'),
     filename: "HJmore.js"
